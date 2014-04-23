@@ -1,0 +1,326 @@
+body {
+    background-color: #333333;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rancho', sans-serif;
+    font-size: 40px;
+    color: #ececec;
+}
+
+header {
+    height: 500px;
+}
+
+#top {
+    width: 100%;
+    height: 10%;
+    margin: 0 0;
+}
+
+#box {
+    position: fixed;
+    /*ForAlternateDesign
+        left: 50%;
+    margin: 0 0 0 -25%;
+    */
+    width: 100%;
+    height: 75px;
+    /*    max-height: 50px;*/
+    /*border-radius: 0 0 20px 20px;*/
+    background-color:#ff2f96;
+    border-bottom: 1px solid white;
+    z-index: 1;
+}
+
+#box a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#box h2 {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    font-family: 'Rancho', sans-serif;
+    font-size: 30px;
+    color: #ececec; 
+}
+
+#box h2:nth-child(1) {
+    top: 25%;
+    left: 5%; 
+    z-index: 2;
+}
+
+#box h2:nth-child(2) {
+    top: 25%;
+    left: 17%; 
+    z-index: 2;
+}
+
+#box h2:nth-child(3) {
+    top: 25%;
+    left: 32%; 
+    z-index: 2;
+}
+
+#box h2:nth-child(4) {
+    top: 25%;
+    left: 65%; 
+    z-index: 2;
+}
+
+#box h2:nth-child(5) {
+    top: 25%;
+    left: 80%; 
+    z-index: 2;
+}
+
+#inner-circle{
+    position: relative;
+    top: 15%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius:100%;
+    background-color:#333333;
+    z-index: 2;
+}
+
+.portrait {
+        position: relative;
+	    width: 150px;
+	    height: 150px;
+        margin: 0 auto;
+    	border-radius: 150px;
+	    -webkit-border-radius: 150px;
+	    -moz-border-radius: 150px;
+	    background: url("../images/seal.jpg") no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	    box-shadow: 0 0 8px rgba(255, 255, 255, .8);
+	    -webkit-box-shadow: 0 0 8px rgba(255, 255, 255, .8);
+	    -moz-box-shadow: 0 0 8px rgba(255, 255, 255, .8);
+	    color: white;
+	    border: 1px white solid;
+	    overflow: visible;
+        z-index: 3;
+        text-align: center;
+}
+
+#quote {
+    position: relative;
+    margin: 300px auto;
+    font-family: 'Satisfy', 'cursive';
+    font-size: 26px;
+    text-align: center;
+    color: #ececec;
+    z-index: -1;
+}
+
+#bio {
+    display: block;
+    position: relative;
+    padding: 15px 0;
+    background-color: #f2a2c5;
+    -webkit-box-shadow: inset 0 5px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0 5px 10px rgba(0, 0, 0, .3);
+    text-align: center;
+    font-family: 'Rancho', sans-serif;
+    font-size: 30px;
+    color: #ececec;
+    z-index: -10;
+}
+
+#stats {
+    display: block;
+    position: relative;
+    padding: 15px 0;
+    background-color: #737373;
+    -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
+    text-align: center;
+    font-family: 'Rancho', sans-serif;
+    font-size: 30px;
+    color: #ececec;
+    z-index: -10;
+}
+
+#links {
+    display: block;
+    padding: 15px 0;
+    background-color: #333333;
+    -webkit-box-shadow: inset 0 5px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0 5px 10px rgba(0, 0, 0, .3);
+    text-align: center;
+    font-family: 'Rancho', sans-serif;
+    font-size: 30px;
+    color: #ececec;
+    z-index: -10;
+}
+
+#links li {
+    line-height: 40px;
+}
+
+
+li img {
+    display: inline;
+    width: 40px;
+    height: auto;
+    margin: -3px 0px;
+}
+
+#links h2 {
+    display: inline;
+}
+
+#links a {
+    color: #ececec;
+    text-decoration: none;
+}
+
+#wikiimage {
+    width: 150px;
+    height: auto;
+    margin: -40px 0px;
+}
+
+#images {
+    width: 100%;
+    height: 950px;
+    display: block;
+    padding: 0 0;
+    background-color: #ff2f96;
+    -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, .3);
+    text-align: center;
+    font-family: 'Rancho', sans-serif;
+    font-size: 30px;
+    color: #ececec;
+    z-index: -10;
+}
+
+#images h1 {
+    padding: 15px 0;
+    background-color: #ff2f96;
+}
+    
+#gallery {
+    margin: 20px auto;
+    width: 75%;
+    height: 800px;
+    background-color: #333333;
+}
+
+#gallery a {
+    float: left;
+    width: 25%;
+    height: 25%;
+    position: relative;
+    border: 1px solid #333;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#gallery a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 300ms; 
+    -moz-transition-property: width, height;
+    -moz-transition-duration: 300ms;
+    -o-transition-property: width, height;
+    -o-transition-duration: 300ms;
+    position: absolute;
+    opacity: 0.3; 
+    cursor: pointer;
+}
+
+#gallery a:after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "Sealfie";
+    color: #eaeaea;
+    font-family: "Rancho";
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+#gallery a:focus img{
+    width: 250%; 
+    height: 250%;
+    position: absolute;
+    opacity: 1; 
+    z-index: 1; 
+    -moz-box-shadow: 0 0 15px 2px #000;
+    -webkit-box-shadow: 0 0 15px 2px #000;
+    box-shadow: 0 0 15px 2px #000; 
+    -webkit-transition-property: width, height;
+    -webkit-transition-duration: 2s; 
+    -webkit-transition-delay: 0.3s; 
+    -moz-transition-property: width, height;
+    -moz-transition-duration: 2s;
+    -moz-transition-delay: 0.3s;
+    -o-transition-property:width, height;
+    -o-transition-duration: 2s;
+    -o-transition-delay: 0.3s;
+    cursor: default;
+}
+
+#gallery a:nth-child(4n+4) img, a:nth-child(4n+3) img{
+    right: 0;
+}
+
+#gallery .closed{
+    display: none;
+}
+    
+#gallery a:focus~.closed{
+    display: block;
+}
+
+#aboutme {
+    position: relative;
+    padding: 15px 30px;
+    background-color: #f2a2c5;
+    color: #ececec;
+        font-family: 'Rancho', sans-serif;
+    font-size: 30px;
+    -webkit-box-shadow: inset 0 5px 10px rgba(0, 0, 0, .3)
+    -moz-box-shadow: inset 0 5px 10px rgba(0, 0, 0, .3)
+    text-align: center;
+    z-index: -10;
+}
+
+#aboutme p {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+footer {
+    position: relative;
+    height: 55px;
+    width: 100%;
+    background-color: #333333;
+    z-index: -10;
+    -webkit-box-shadow: 0 0 20px 8px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 0 20px 8px rgba(0, 0, 0, .3);
+    color: #ececec;
+    font-family: 'Rancho', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer h4 {
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+}
